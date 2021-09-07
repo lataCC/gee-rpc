@@ -22,10 +22,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34af4517-532e-4dd4-8815-76888ee8ad05" name="默认的" comment="test2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day1/codec/codec.go" beforeDir="false" afterPath="$PROJECT_DIR$/day1/codec/codec.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" />
+    <list default="true" id="34af4517-532e-4dd4-8815-76888ee8ad05" name="默认的" comment="day1">
+      <change beforePath="$PROJECT_DIR$/day1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day1/.idea/day1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day1/codec/codec.go" beforeDir="false" afterPath="$PROJECT_DIR$/codec/codec.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day1/codec/gob.go" beforeDir="false" afterPath="$PROJECT_DIR$/codec/gob.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day1/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day1/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day1/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/server.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +65,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../7days-golang/gee-rpc/day1-codec" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -67,13 +73,25 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\go\workspace\src\gee-rpc\day1" />
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\go\workspace\src\gee-rpc" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\go\workspace\src\gee-rpc" />
+      <recent name="E:\go\workspace\src\gee-rpc\day1" />
       <recent name="E:\go\workspace\src\gee-rpc\day1\codec" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go 构建.go build main.go (1)">
+    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="gee-rpc" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="gee-rpc" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/main/main.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="gee-rpc" />
       <working_directory value="$PROJECT_DIR$/day1" />
@@ -85,6 +103,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build main.go (1)" />
         <item itemvalue="Go 构建.go build main.go" />
       </list>
     </recent_temporary>
@@ -108,7 +127,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="test2" />
-    <option name="LAST_COMMIT_MESSAGE" value="test2" />
+    <MESSAGE value="day1" />
+    <option name="LAST_COMMIT_MESSAGE" value="day1" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
