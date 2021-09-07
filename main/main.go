@@ -3,22 +3,22 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"gee-rpc"
-	"gee-rpc/codec"
+	"geerpc"
+	"geerpc/codec"
 	"log"
 	"net"
 	"time"
 )
 
 func startServer(addr chan string) {
-	// pick a free port
+
 	l, err := net.Listen("tcp", ":0")
 	if err != nil {
 		log.Fatal("network error:", err)
 	}
 	log.Println("start rpc server on", l.Addr())
 	addr <- l.Addr().String()
-	gee_rpc.Accept(l)
+	geerpc.Accept(l)
 }
 
 func main() {
@@ -31,7 +31,7 @@ func main() {
 
 	time.Sleep(time.Second)
 
-	_ = json.NewEncoder(conn).Encode(gee_rpc.DefaultOption)
+	_ = json.NewEncoder(conn).Encode(geerpc.DefaultOption)
 	cc := codec.NewGobCodec(conn)
 
 	for i := 0; i < 5; i++ {

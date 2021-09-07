@@ -23,15 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34af4517-532e-4dd4-8815-76888ee8ad05" name="默认的" comment="day1">
-      <change beforePath="$PROJECT_DIR$/day1/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day1/.idea/day1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day1/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day1/codec/codec.go" beforeDir="false" afterPath="$PROJECT_DIR$/codec/codec.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day1/codec/gob.go" beforeDir="false" afterPath="$PROJECT_DIR$/codec/gob.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day1/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day1/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day1/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/server.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
