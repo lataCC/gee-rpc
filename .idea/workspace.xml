@@ -22,9 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34af4517-532e-4dd4-8815-76888ee8ad05" name="默认的" comment="test">
-      <change afterPath="$PROJECT_DIR$/client.go" afterDir="false" />
+    <list default="true" id="34af4517-532e-4dd4-8815-76888ee8ad05" name="默认的" comment="客户端部分实现">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +130,8 @@
     <MESSAGE value="test2" />
     <MESSAGE value="day1" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="客户端部分实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="客户端部分实现" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>

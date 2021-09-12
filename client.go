@@ -179,11 +179,10 @@ func Dial(network, address string, opts ...*Option) (client *Client, err error) 
 }
 
 func (client *Client) send(call *Call) {
-	// make sure that the client will send a complete request
+
 	client.sending.Lock()
 	defer client.sending.Unlock()
 
-	// register this call.
 	seq, err := client.registerCall(call)
 	if err != nil {
 		call.Error = err
@@ -191,7 +190,6 @@ func (client *Client) send(call *Call) {
 		return
 	}
 
-	// prepare request header
 	client.header.ServiceMethod = call.ServiceMethod
 	client.header.Seq = seq
 	client.header.Error = ""
