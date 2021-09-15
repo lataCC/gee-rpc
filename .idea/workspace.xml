@@ -22,10 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34af4517-532e-4dd4-8815-76888ee8ad05" name="默认的" comment="客户端部分实现2">
-      <change afterPath="$PROJECT_DIR$/service.go" afterDir="false" />
+    <list default="true" id="34af4517-532e-4dd4-8815-76888ee8ad05" name="默认的" comment="部分服务注册实现">
+      <change afterPath="$PROJECT_DIR$/service_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service.go" beforeDir="false" afterPath="$PROJECT_DIR$/service.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +86,15 @@
     </key>
   </component>
   <component name="RunManager" selected="Go 构建.go build main.go (1)">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="gee-rpc" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="gee-rpc" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="gee-rpc" />
       <working_directory value="$PROJECT_DIR$" />
@@ -101,6 +111,16 @@
       <package value="gee-rpc" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/day1/main/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="gee-rpc" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="DIRECTORY" />
+      <package value="gee-rpc" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -132,7 +152,8 @@
     <MESSAGE value="test" />
     <MESSAGE value="客户端部分实现" />
     <MESSAGE value="客户端部分实现2" />
-    <option name="LAST_COMMIT_MESSAGE" value="客户端部分实现2" />
+    <MESSAGE value="部分服务注册实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="部分服务注册实现" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
