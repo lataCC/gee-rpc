@@ -22,9 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34af4517-532e-4dd4-8815-76888ee8ad05" name="默认的" comment="服务注册实现与功能测试">
+    <list default="true" id="34af4517-532e-4dd4-8815-76888ee8ad05" name="默认的" comment="超时处理完成(未测试)">
+      <change afterPath="$PROJECT_DIR$/debug.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/server.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -153,7 +155,8 @@
     <MESSAGE value="客户端部分实现2" />
     <MESSAGE value="部分服务注册实现" />
     <MESSAGE value="服务注册实现与功能测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="服务注册实现与功能测试" />
+    <MESSAGE value="超时处理完成(未测试)" />
+    <option name="LAST_COMMIT_MESSAGE" value="超时处理完成(未测试)" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
